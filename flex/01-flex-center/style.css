@@ -1,9 +1,17 @@
 .container {
+  font-size: large;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /* cambios de acá...*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*...hasta acá*/
 }
+/*Tengo que activar el display flex para que align items
+y justify content funcionen correctamente */
 
 .box {
   background: palevioletred;
