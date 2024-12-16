@@ -13,6 +13,7 @@ img {
   /* mi código */
   display: flex;
   justify-content: center;
+  padding-bottom: 35px;
 }
 
 /* do not edit this footer */
@@ -30,14 +31,18 @@ img {
 
 /* mi código */
 
-.items { 
+.contenedor {
   display: flex;
+  justify-content: center;
 }
 
-.primer { 
-  border: solid 2px black;
+.item { 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 200px;
+  margin-right: 52px;
 }
 img { 
   justify-content: center;
-  border: solid 2px red;
 }
