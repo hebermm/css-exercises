@@ -73,6 +73,8 @@ button.cancel {
 .prueba{
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
 }
 .header{
   font-size: large;
@@ -81,7 +83,19 @@ button.cancel {
 }
 .text{
 }
+.icon{
+}
 
 .close-button{
   margin-left: auto;
+}
+
+/** bordes para visualizar **/
+
+.header, .close-button, .text, .modal, .icon, .prueba{
+  border: 1px solid black;
+}
+.text{
+}
+.icon{
 }
